@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Home</title>
+
+   <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="../css/style.css">
+
+</head>
+<body>
+   
+<header class="header">
+
+   <section class="flex">
+
+      <a href="../html/home.html" class="logo">Thao Sneaker😋</a>
+
+      <nav class="navbar">
+         <a href="../html/home.html">Trang chủ</a>
+         <a href="../html/about.html">Giới thiệu</a>
+         <a href="../html/menu.html">Sản phẩm</a>
+         <a href="../html/orders.html">Đặt hàng</a>
+         <a href="../html/contact.html">Liên hệ</a>
+         <a href="../html/quick_view.html">giỏ hàng</a>
+      </nav>
+
+      <div class="icons">
+         <a href="../html/search.html"><i class="fas fa-search"></i></a>
+         <a href="../html/cart.html"><i class="fas fa-shopping-cart"></i><span>(3)</span></a>
+         <div id="user-btn" class="fas fa-user"></div>
+         <div id="menu-btn" class="fas fa-bars"></div>
+      </div>
+
+      <div class="profile">
+         <p class="name">Đào Thị Thảo</p>
+         <div class="flex">
+            <a href="../html/profile.html" class="btn">Profile</a>
+            <a href="#" class="delete-btn">Logout</a>
+         </div>
+         <p class="account"><a href="../html/login.html">Login</a> or <a href="../html/register.html">Register</a></p>
+      </div>
+
+   </section>
+
+</header>
+
+<section class="home">
+   <div class="swiper home-slider">
+      <div class="swiper-wrapper">
+         <div class="swiper-slide slide">
+            <div class="content">
+               <span>Order Online</span>
+               <h3>nice shoes</h3>
+               <a href="../html/menu.html" class="btn">see category</a>
+            </div>
+            <div class="image">
+               <img src="../images/ảnhdd.png" alt="">
+            </div>
+         </div>
+         <div class="swiper-slide slide">
+            <div class="content">
+               <span>Order Online</span>
+               <h3>nice shoes</h3>
+               <a href="../html/menu.html" class="btn">see category</a>
+            </div>
+            <div class="image">
+               <img src="../images/home.jpg" alt="">
+            </div>
+         </div>
+         <div class="swiper-slide slide">
+            <div class="content">
+               <span>Order Online</span>
+               <h3>nice shoes</h3>
+               <a href="../html/menu.html" class="btn">see category</a>
+            </div>
+            <div class="image">
+               <img src="../images/home-4.jpg" alt="">
+            </div>
+         </div>
+      </div>
+      <div class="swiper-pagination"></div>
+
+   </div>
+
+</section>
+
+<section class="category">
+
+   <h1 class="title">Danh mục sản phẩm</h1>
+
+   <div class="box-container">
+
+      <a href="../html/category.html" class="box">
+         <img src="../images/cat1.jpg" alt="">
+         <h3>Shoes</h3>
+      </a>
+   
+      <a href="../html/category.html" class="box">
+         <img src="..//images/cat2.png" alt="">
+         <h3>Sandal</h3>
+      </a>
+   
+      <a href="../html/category.html" class="box">
+         <img src="..//images/cate3.png" alt="">
+         <h3>Accessories</h3>
+      </a>
+   
+      <a href="../html/category.html" class="box">
+         <img src="../images/cat4.jpg" alt="">
+         <h3> Cleaning</h3>
+      </a>
+
+   </div>
+
+</section>
+
+<section class="products">
+
+   <h1 class="title">sản phẩm nổi bật </h1>
+
+   <div class="box-container">
+
+      <form accept="" method="post" class="box">
+         <a href="../html/quick_view3.html" class="fas fa-eye"></a>
+         <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+         <img src="../images/home-3.jpg" alt="">
+         <a href="../html/category.html" class="cat">Shoes</a>
+         <div class="name">Boot ULzzang</div>
+         <div class="flex">
+            <div class="price">720.000 <span>VND</span></div>
+            <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+         </div>
+      </form>
+
+      <form accept="" method="post" class="box">
+         <a href="../html/quick_view1.html" class="fas fa-eye"></a>
+         <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+         <img src="../images/sục1.jpg" alt="">
+         <a href="../html/category.html" class="cat">Sandal</a>
+         <div class="name">Sandal Mlb Ny</div>
+         <div class="flex">
+            <div class="price">500.000 <span>VND</span></div>
+            <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+         </div>
+      </form>
+
+      <form accept="" method="post" class="box">
+         <a href="../html/quick_view4.html" class="fas fa-eye"></a>
+         <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+         <img src="../images/ảnh6.jpg" alt="">
+         <a href="../html/category.html" class="cat">Shoes</a>
+         <div class="name">Adidas Samba </div>
+         <div class="flex">
+            <div class="price">600.000 <span>VND</span></div>
+            <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+         </div>
+      </form>
+
+      <form accept="" method="post" class="box">
+         <a href="../html/quick_view.html" class="fas fa-eye"></a>
+         <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+         <img src="../images/anh0.jpg" alt="">
+         <a href="../html/category.html" class="cat">Shoes</a>
+         <div class="name">Gucci</div>
+         <div class="flex">
+            <div class="price">830.000 <span>VND</span></div>
+            <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+         </div>
+      </form>
+
+      <form accept="" method="post" class="box">
+         <a href="../html/quick_view2.html" class="fas fa-eye"></a>
+         <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+         <img src="../images/anh45.jpg" alt="">
+         <a href="../html/category.html" class="cat">Sandal</a>
+         <div class="name">MLB Unisex</div>
+         <div class="flex">
+            <div class="price">250.000 <span>VND</span></div>
+            <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+         </div>
+      </form>
+
+      <form accept="" method="post" class="box">
+         <a href="../html/quick_view5.html" class="fas fa-eye"></a>
+         <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+         <img src="../images/ảnh4.jpg" alt="">
+         <a href="../html/category.html" class="cat">Shoes</a>
+         <div class="name">MLB Chunky </div>
+         <div class="flex">
+            <div class="price">650.000 <span>VND</span></div>
+            <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+         </div>
+      </form>
+
+   </div>
+
+   <div class="more-btn">
+      <a href="../html/menu.html" class="btn">veiw all</a>
+   </div>
+
+</section>
+
+<footer class="footer">
+
+   <section class="box-container">
+
+      <div class="box">
+         <img src="../images/email-icon.png" alt="">
+         <h3>Our Email</h3>
+         <a href="mailto:daothaohy2863@gmail.com">daothaohy2863@gmail.com</a>
+      </div>
+
+      <div class="box">
+         <img src="../images/clock-icon.png" alt="">
+         <h3>Opening hours</h3>
+         <p>00:07am to 00:10pm </p>
+      </div>
+
+      <div class="box">
+         <img src="../images/map-icon.png" alt="">
+         <h3>Our Address</h3>
+         <a href="https://www.google.com/maps">Hà Nội, Việt Nam </a>
+      </div>
+
+      <div class="box">
+         <img src="../images/phone-icon.png" alt="">
+         <h3>Our number</h3>
+         <a href="tel:0705-136-588">0337-955-603</a>
+      </div>
+
+   </section>
+
+   <div class="credit">& Copyright @ 2023 by <span>Đào Thị Thảo</span> | All rights reserved!</div>
+
+</footer>
+
+<div class="loader">
+   <img src="../images/loader.gif" alt="">
+</div>
+
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+<script src="../js/script.js"></script>
+
+<script>
+
+var swiper = new Swiper(".home-slider", {
+   loop:true,
+   grabCursor:true,
+   effect: "flip",
+   pagination: {
+      el: ".swiper-pagination",
+      clickable:true,
+   },
+});
+
+</script>
+
+</body>
+</html>

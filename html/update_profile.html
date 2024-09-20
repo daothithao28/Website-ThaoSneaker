@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Home</title>
+
+   <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="../css/style.css">
+
+</head>
+<body>
+   
+<header class="header">
+
+   <section class="flex">
+
+      <a href="../html/home.html" class="logo">Thao Sneaker 😋</a>
+
+      <nav class="navbar">
+         <a href="../html/home.html">Trang chủ</a>
+         <a href="../html/about.html">Giới thiệu</a>
+         <a href="../html/menu.html">Sản phẩm</a>
+         <a href="../html/orders.html">Đặt hàng</a>
+         <a href="../html/contact.html">Liên hệ</a>
+      </nav>
+
+      <div class="icons">
+         <a href="../html/search.html"><i class="fas fa-search"></i></a>
+         <a href="../html/cart.html"><i class="fas fa-shopping-cart"></i><span>(3)</span></a>
+         <div id="user-btn" class="fas fa-user"></div>
+         <div id="menu-btn" class="fas fa-bars"></div>
+      </div>
+
+      <div class="profile">
+         <p class="name">Đào Thị Thảo</p>
+         <div class="flex">
+            <a href="../html/profile.html" class="btn">Profile</a>
+            <a href="#" class="delete-btn">Logout</a>
+         </div>
+         <p class="account"><a href="../html/login.html">Login</a> or <a href="../html/register.html">Register</a></p>
+      </div>
+
+   </section>
+
+</header>
+
+
+<section class="form-container">
+
+   <form action="" method="POST">
+      <h3>update profile</h3>
+      <input type="text" required maxlength="20" name="name" placeholder="Enter your name" class="box" 
+         oninput="this.value = this.value.replace(/\s/g, '')" value="Đào Thị Thảo">
+      <input type="email" required maxlength="50" name="email" placeholder="Enter your email" class="box" 
+         oninput="this.value = this.value.replace(/\s/g, '')" value="daothaohy2863@gmail.com">
+      <input type="numner" min="0" max="9999999999" onkeypress="if(this.value.length == 10) return false;" 
+         placeholder="Enter your number" required class="box" name="number" value="0337955603">
+      <input type="password" maxlength="20" name="old_pass" placeholder="Enter your old password" class="box" 
+         oninput="this.value = this.value.replace(/\s/g, '')">
+      <input type="password" maxlength="20" name="new_pass" placeholder="Enter your new password" class="box" 
+         oninput="this.value = this.value.replace(/\s/g, '')">
+      <input type="password" maxlength="20" name="confirm_pass" placeholder="Confirm your new password" class="box" 
+         oninput="this.value = this.value.replace(/\s/g, '')">
+      <input type="submit" value="update now" class="btn" name="submit">
+   </form>
+
+</section>
+<footer class="footer">
+
+   <section class="box-container">
+
+      <div class="box">
+         <img src="../images/email-icon.png" alt="">
+         <h3>Our Email</h3>
+         <a href="mailto:daothaohy2863@gmail.com">daothaohy2863@gmail.com</a>
+      </div>
+
+      <div class="box">
+         <img src="../images/clock-icon.png" alt="">
+         <h3>Opening hours</h3>
+         <p>00:07am to 00:10pm </p>
+      </div>
+
+      <div class="box">
+         <img src="../images/map-icon.png" alt="">
+         <h3>Our Address</h3>
+         <a href="https://www.google.com/maps">Hưng Yên, Việt Nam </a>
+      </div>
+
+      <div class="box">
+         <img src="../images/phone-icon.png" alt="">
+         <h3>Our number</h3>
+         <a href="tel:0337-955-603">0337-955-603</a>
+      </div>
+
+   </section>
+
+   <div class="credit">& Copyright @ 2023 by <span>Đào Thị Thảo</span> | All rights reserved!</div>
+
+</footer>
+
+<div class="loader"> 
+   <img src="../images/loader.gif" alt="">
+</div>
+
+
+<script src="../js/script.js"></script>
+
+</body>
+</html>
